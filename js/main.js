@@ -1,0 +1,1 @@
+"use strict";!function(){var e=new Date,t=e.getDay(),n=e.toLocaleString("uk-UA").split(" ")[1];console.log(n),function(e,t){var n=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];document.getElementById("day").innerText=" "+n[e-1],document.getElementById("time").innerText=" "+t}(t,n)}();
