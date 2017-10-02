@@ -1,1 +1,18 @@
-"use strict";!function(){var e=new Date,t=e.getDay(),n=e.toLocaleString("uk-UA").split(" ")[1];console.log(n),function(e,t){var n=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];document.getElementById("day").innerText=" "+n[e-1],document.getElementById("time").innerText=" "+t}(t,n)}();
+/* Coded by Paliy Rostyslav. e-mail: paliy1984@gmail.com. skype: ros.coprandos  !!!SYLB!!! */
+
+"use strict";
+
+(function () {
+
+    var currentDate = new Date();
+    var currentDay = currentDate.getDay();
+    var currentTime = currentDate.toLocaleString('uk-UA').split(' ')[1];
+
+    function displayDay(currentDay, currentTime) {
+        var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+        document.getElementById('day').innerText = ' ' + daysOfWeek[currentDay - 1];
+        document.getElementById('time').innerText = ' ' + currentTime;
+    }
+
+    displayDay(currentDay, currentTime);
+})();
