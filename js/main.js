@@ -1,8 +1,9 @@
+'use strict';
+
 /* Coded by Paliy Rostyslav. e-mail: paliy1984@gmail.com. skype: ros.coprandos  !!!SYLB!!! */
 
-"use strict";
-
 (function () {
+    "use strict";
 
     var currentDate = new Date();
     var currentDay = currentDate.getDay();
