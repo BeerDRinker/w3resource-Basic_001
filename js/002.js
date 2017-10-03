@@ -1,7 +1,7 @@
-"use strict";
+( () => {
+    
+    const mainButton = document.getElementById('mainButton').addEventListener('click', () => {
+       window.print() ;
+    });
 
-(function () {
-    "use strict";
-
-    var mainButton = document.getElementById('mainButton').click();
 })();
